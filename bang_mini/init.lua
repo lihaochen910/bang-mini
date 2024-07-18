@@ -1,0 +1,43 @@
+﻿require 'bang_mini.utils.class'
+require 'bang_mini.utils.MiniDelegate'
+require 'bang_mini.utils.TableExtensions'
+require 'bang_mini.utils.HashExtensions'
+
+require 'bang_mini.entities.Entity'
+
+require 'bang_mini.components.IComponent'
+require 'bang_mini.components.IMessage'
+require 'bang_mini.components.IModifiableComponent'
+require 'bang_mini.components.RequiresAttribute'
+
+require 'bang_mini.contexts.ContextAccessorFilter'
+require 'bang_mini.contexts.ContextAccessorKind'
+require 'bang_mini.contexts.WatcherNotificationKind'
+require 'bang_mini.contexts.ComponentWatcher'
+require 'bang_mini.contexts.MessageWatcher'
+require 'bang_mini.contexts.Observer'
+require 'bang_mini.contexts.Context'
+
+require 'bang_mini.interactions.Interaction'
+require 'bang_mini.interactions.InteractiveComponent'
+require 'bang_mini.interactions.InteractorMessage'
+
+require 'bang_mini.systems.FilterAttribute'
+require 'bang_mini.systems.MessagerAttribute'
+require 'bang_mini.systems.WatchAttribute'
+require 'bang_mini.systems.ISystem'
+require 'bang_mini.systems.IActivateAndDeactivateListenerSystem'
+require 'bang_mini.systems.IEarlyStartupSystem'
+require 'bang_mini.systems.IExitSystem'
+require 'bang_mini.systems.IFixedUpdateSystem'
+require 'bang_mini.systems.ILateUpdateSystem'
+require 'bang_mini.systems.IMessagerSystem'
+require 'bang_mini.systems.IReactiveSystem'
+require 'bang_mini.systems.IRenderSystem'
+require 'bang_mini.systems.IStartupSystem'
+require 'bang_mini.systems.IUpdateSystem'
+
+require 'bang_mini.ComponentsLookup'
+require 'bang_mini.World'
+
+require 'bang_mini.Bang'
